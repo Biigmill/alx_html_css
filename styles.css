@@ -1,0 +1,23 @@
+body, main{
+	display: flex;
+
+}
+body{
+	flex-direction: column;
+
+}
+main{
+	flex-direction: row;
+	flex: auto;
+}
+article{
+	width: 66.6666667%;
+	flex: 2;
+	overflow-y: auto;
+	background-color: azure;
+}
+aside{
+	width: 33.3333333%;
+	flex: 1;
+	overflow-y: auto;
+}
